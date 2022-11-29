@@ -10,5 +10,6 @@ int main()
 	double r_exp;
 
 	int i, f, fact;
+	scanf_s("%lf %lf %lf", &l_inicial, &l_final, &inc);
 }
 
