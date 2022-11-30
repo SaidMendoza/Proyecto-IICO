@@ -12,6 +12,12 @@ int main()
 	int i, f, fact;
 	scanf_s("%lf %lf %lf", &l_inicial, &l_final, &inc);
 	int conteo = (l_final - l_inicial) / inc; //Calcular cuál va a ser el conteo para la serie de euler
-
+	if (l_inicial == 0 && l_final == 0)
+	{
+		r_exp = 1;
+		r_e = 1;
+		printf("%f %f %f", l_inicial, r_e, r_exp);
+		return 0;
+	}
 }
 
