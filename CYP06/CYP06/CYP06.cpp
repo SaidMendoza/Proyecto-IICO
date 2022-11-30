@@ -22,6 +22,13 @@ int main()
 	else if (inc == 0)
 	{
 		return 1;
+	}while (l_inicial <= l_final + inc)
+	{
+		
+		r_exp = exp(l_inicial);
+		printf("%f %f %f\n", l_inicial, r_e, r_exp);
+		l_inicial = l_inicial + inc;
+		r_e = 0;
 	}
 }
 
