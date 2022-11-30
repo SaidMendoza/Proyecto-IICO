@@ -4,14 +4,14 @@
 
 int main()
 {
-	double l_inicial, l_final, inc; 	//variables que almacenan datos a introducir, l=limite, inc=incremento
+	double l_inicial, l_final, inc; 	
 
-	double r_e = 0; //variables que almacenaran los resultados a mostrar, r=resultado, exp=exponente
+	double r_e = 0; 
 	double r_exp;
 
 	int i, f, fact;
 	scanf_s("%lf %lf %lf", &l_inicial, &l_final, &inc);
-	int conteo = (l_final - l_inicial) / inc; //Calcular cuál va a ser el conteo para la serie de euler
+	int conteo = (l_final - l_inicial) / inc; 
 	if (l_inicial == 0 && l_final == 0)
 	{
 		r_exp = 1;
