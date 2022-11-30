@@ -19,5 +19,9 @@ int main()
 		printf("%f %f %f", l_inicial, r_e, r_exp);
 		return 0;
 	}
+	else if (inc == 0)
+	{
+		return 1;
+	}
 }
 
