@@ -24,7 +24,15 @@ int main()
 		return 1;
 	}while (l_inicial <= l_final + inc)
 	{
-		
+		for (i = 0; i <= conteo; i++)
+		{
+			fact = 1;
+			for (f = 1; f <= i; f++)
+			{
+				fact = fact * f;
+			}
+			r_e = r_e + (pow(l_inicial, i)) / fact;
+		}
 		r_exp = exp(l_inicial);
 		printf("%f %f %f\n", l_inicial, r_e, r_exp);
 		l_inicial = l_inicial + inc;
